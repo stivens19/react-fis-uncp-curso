@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import UseStateSection from './components/sections/UseStateSection'
 import Formulario from './components/sections/Formulario'
 import Api from './components/sections/Api'
