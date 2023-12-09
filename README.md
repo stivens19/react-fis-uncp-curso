@@ -9,7 +9,7 @@
 
   <p align="center">
    Notion del Curso👓
-   <a href="https://www.notion.so/DAW-FIS-3d4bdb39505e433bac18ab57d6b53264?pvs=4">Ingresa al Notion</a>
+   <a href="https://fair-brook-c83.notion.site/DAW-FIS-3d4bdb39505e433bac18ab57d6b53264">Ingresa al Notion</a>
     <br />
     <br />
     <br />
