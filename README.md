@@ -1,7 +1,6 @@
 <div id="top"></div>
+[![Twitter](https://img.shields.io/badge/Twitter-1DA1F2?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/StivensE19)
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/stivens-espinoza-11954b184/)
-
-
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
