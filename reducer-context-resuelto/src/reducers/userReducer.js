@@ -4,6 +4,11 @@ export const userReducer = (state = {}, action) => {
             return{
                 users:[...state.users,action.payload]
             }
+        case'DELETE_USER':{
+            return{
+                users:state.users.filter(user=>action.payload!=user.name)
+            }
+        }
         default:
             return state
     }
