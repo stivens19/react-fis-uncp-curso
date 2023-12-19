@@ -2,6 +2,8 @@ import { useReducer } from "react";
 import { UseForm } from "./hooks/useForm";
 import { userReducer } from "./reducers/userReducer";
 import Swal from 'sweetalert2'
+import Table from "./components/Table";
+import { UserContext } from "./context/UserContext";
 const initialState = {
   users: [],
 };
@@ -23,7 +25,12 @@ function App() {
     reset();
   };
   return (
-    <>
+  
+    <UserContext.Provider value={
+      {
+        usuarios:state.users
+      }
+    }>
       <div className="container py-5">
         <div className="row">
           <div className="col-6">
@@ -55,30 +62,11 @@ function App() {
             </form>
           </div>
           <div className="col-6">
-            <table className="table">
-              <thead>
-                <tr>
-                  <th scope="col">Nombres</th>
-                  <th scope="col">Correo</th>
-                  <th scope="col">Acción</th>
-                </tr>
-              </thead>
-              <tbody>
-                {state.users.map((user) => (
-                  <tr>
-                    <td>{user.nombres}</td>
-                    <td>{user.email}</td>
-                    <td>
-                      <button className="btn btn-danger">X</button>
-                    </td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
+            <Table />
           </div>
         </div>
       </div>
-    </>
+    </UserContext.Provider>
   );
 }
 
